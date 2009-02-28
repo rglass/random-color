@@ -1,0 +1,16 @@
+Open index.html.
+
+Displays a webpage with a random color.
+
+Hm, the program is not so interesting after all.  But better, than a
+simple hello world.  For the font I have used Georgia, because the
+numbers align so nicely.  The font changes after the algorithm 
+
+    if ((rgb[0] + rgb[1] + rgb[2]) / 3 < 128) {
+        colorname.style.color = 'white';
+    } else {
+        colorname.style.color = 'black';
+    }
+
+The only thing that is a bit interesting here.  The use-case?  You
+need a color quickly and click until you find a nice one.
